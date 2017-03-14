@@ -1,0 +1,1 @@
+# dscconfiguration.template
