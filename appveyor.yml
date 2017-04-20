@@ -17,7 +17,7 @@ environment:
 matrix:
   fast_finish: true
 install:
-  - git clone https://github.com/Microsoft/DscConfiguration.Tests
+  - git clone https://github.com/powershell/dscconfiguration.tests
   - ps: |
         Install-PackageProvider -Name NuGet -MinimumVersion 2.8.5.205 -Force | Out-Null
         Install-Module InvokeBuild -force
@@ -27,5 +27,5 @@ build_script:
           Invoke-Build -Summary
         }
         else {
-          Invoke-Build -File .\DscConfiguration.Tests\.build.ps1 -Summary
+          Invoke-Build -File .\dscconfiguration.tests\.build.ps1 -Summary
         }
