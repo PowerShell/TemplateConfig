@@ -12,7 +12,7 @@
 # RootModule = ''
 
 # Version number of this module.
-ModuleVersion = '1.0.0.2'
+ModuleVersion = '1.0.0.3'
 
 # Supported PSEditions
 # CompatiblePSEditions = @()
@@ -93,7 +93,7 @@ AliasesToExport = @()
 PrivateData = @{
 
     #WindowsOSVersion of this module
-    WindowsOSVersion = '2012-Datacenter 2012-R2-Datacenter 2016-Datacenter 2016-Nano-Server'
+    WindowsOSVersion = '2012-Datacenter','2012-R2-Datacenter','2016-Datacenter','2016-Nano-Server'
 
     PSData = @{
 
